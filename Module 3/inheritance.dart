@@ -46,7 +46,7 @@ main(){
   print(Rifat.bike);
   Rifat.bike = 'Apache';
   print(Rifat.bike);
-  print(Rifat.incomesource());
+  Rifat.incomesource();
 
   Girl Jui = Girl("Jui");
   print(Jui.land);

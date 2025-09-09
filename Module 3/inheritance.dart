@@ -21,6 +21,10 @@ class Son extends Father{
     print('App Developer');
   }
 
+  getFatherIncomeSource(){
+    super.incomesource();
+  }
+
   Son(this.sonName) : super('Osman');
 }
 
@@ -32,6 +36,7 @@ class Mother{
   incomesource1(){
     print('House Wife');
   }
+
 
 }
 
@@ -47,6 +52,7 @@ main(){
   Rifat.bike = 'Apache';
   print(Rifat.bike);
   Rifat.incomesource();
+  Rifat.getFatherIncomeSource();
 
   Girl Jui = Girl("Jui");
   print(Jui.land);

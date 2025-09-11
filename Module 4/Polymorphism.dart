@@ -17,7 +17,6 @@ class person implements Student,Businesman{
   examSubmit() {
     print('Exam');
   }
-
 }
 
 class Businesman implements Student{
@@ -35,8 +34,6 @@ class Businesman implements Student{
   }
 
 }
-
-
 
 main(){
   person osman = person('Osman');

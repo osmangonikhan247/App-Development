@@ -62,5 +62,8 @@ main(){
   print(khan is Student);
   print(samia is Student);
 
+  khan.examSubmit();
+  samia.attendclass();
+
 
 }

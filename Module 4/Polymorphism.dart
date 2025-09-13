@@ -65,5 +65,4 @@ main(){
   khan.examSubmit();
   samia.attendclass();
 
-
 }

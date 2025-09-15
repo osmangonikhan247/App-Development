@@ -5,7 +5,7 @@ class Solution {
     void backtrack(int start, int remain, List<int> current) {
       if (remain == 0) {
         result.add(List.from(current));
-        return;
+          return;
       }
       if (remain < 0) return;
 

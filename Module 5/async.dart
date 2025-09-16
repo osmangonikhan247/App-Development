@@ -22,6 +22,7 @@ main(){
 
   });
 
+  test2();
   print('Before all done');
 
   test();
@@ -70,5 +71,15 @@ Future<void> test1() async{
   });//
 
   print('Function End1');
+
+}
+
+test2() async{
+
+  Future.delayed(Duration(seconds: 5),(){
+    print('Run After 3 Second');
+  });//
+
+  print('Function End');
 
 }
